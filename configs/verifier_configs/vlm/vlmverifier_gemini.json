@@ -1,0 +1,12 @@
+{
+    "verifier_args": {
+        "name": "vlmscore",
+        "choice_of_metric": "reward",
+        "eval_target": [
+            "vlmscore"
+        ],
+        "use_genai_api": true,
+        "model_name": "gemini-1.5-flash",
+        "port":11434
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "verifier_args": {
+        "name": "dsgscore",
+        "choice_of_metric": "reward",
+        "question_cache_path": "verifiers/parti_decomposed.json"
+    }
+}

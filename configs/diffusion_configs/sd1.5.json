@@ -1,0 +1,14 @@
+{
+    "pretrained_model_name_or_path": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "torch_dtype": "fp16",
+    "batch_size_for_img_gen": 8,
+    "sampler": "dpm_solver",
+    "pipeline_call_args": {
+        "height": 512,
+        "width": 512,
+        "negative_prompt": null,
+        "guidance_scale": 7.5,
+        "num_inference_steps": 20,
+        "num_images_per_prompt": 3
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "verifier_args": {
+        "name": "prompt_adaptation", 
+        "choice_of_metric": "reward",
+        "eval_target": ["clipscore", "aesthetic", "imagereward"],
+        "base_score_path": "baseline_output/lexica/sd1.4_seed42/basescore_seed42.json"
+    }
+}

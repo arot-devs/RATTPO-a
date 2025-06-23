@@ -1,0 +1,14 @@
+{
+    "search_args": {
+        "search_method": "llm_icl_hint",
+        "history_selection_strategy": "best",
+        "search_rounds": 20,
+        "num_samples_per_round": 8,
+        "history_num_selection": 8,
+        "template_version": "ours", 
+        "llm_name": "gemma3:27b",
+        "use_genai_api": false,
+        "hint_history_selection_strategy": "random",
+        "hint_history_num_selection": 20
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "verifier_args": {
+        "name": "imagereward",
+        "choice_of_metric": "reward",
+        "eval_target": [
+            "imagereward"
+        ]
+    }
+}

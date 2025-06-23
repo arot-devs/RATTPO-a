@@ -1,0 +1,7 @@
+{
+    "name": "0417_sd1.4_seed42",
+    "dataset": "lexica",
+    "diffusion_config": "configs/diffusion_configs/sd1.4.json",
+    "save_img": true,
+    "seed": 42
+}

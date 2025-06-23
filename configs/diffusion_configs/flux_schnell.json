@@ -1,0 +1,14 @@
+{
+    "pretrained_model_name_or_path": "black-forest-labs/FLUX.1-schnell",
+    "torch_dtype": "bf16",
+    "batch_size_for_img_gen": 8,
+    "sampler": null,
+    "pipeline_call_args": {
+        "height": 1024,
+        "width": 1024,
+        "negative_prompt": null,
+        "guidance_scale": 0.0,
+        "num_inference_steps": 4,
+        "num_images_per_prompt": 3
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "search_args": {
+        "search_method": "opt2i",
+        "history_selection_strategy": "best_reversed",
+        "search_rounds": 32,
+        "num_samples_per_round": 5,
+        "history_num_selection": 5,
+        "template_version": "opt2i_dsg", 
+        "llm_name": "gemma3:27b",
+        "use_genai_api": false
+    }
+}

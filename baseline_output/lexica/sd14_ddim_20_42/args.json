@@ -1,0 +1,13 @@
+{
+    "name": "0507_sd14_ddim_20_42",
+    "dataset": "lexica",
+    "diffusion_config": "configs/diffusion_configs/sd1.4_ddim.json",
+    "save_img": true,
+    "seed": 42,
+    "verifiers": [
+        "clipscore",
+        "aesthetic",
+        "imagereward"
+    ],
+    "original_command": "python base_eval.py --dataset lexica --diffusion_config configs/diffusion_configs/sd1.4_ddim.json --seed 42 --name 0507_sd14_ddim_20_42 --save_img"
+}

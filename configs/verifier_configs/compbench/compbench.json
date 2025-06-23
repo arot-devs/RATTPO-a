@@ -1,0 +1,6 @@
+{ 
+    "verifier_args": {
+        "name": "compbench", 
+        "choice_of_metric": "reward"
+    }
+}

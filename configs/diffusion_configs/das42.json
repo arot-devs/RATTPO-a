@@ -1,0 +1,23 @@
+{
+    "pretrained_model_name_or_path": "CompVis/stable-diffusion-v1-4",
+    "torch_dtype": "fp16",
+    "batch_size_for_img_gen": 1,
+    "sampler": "dpm_solver",
+    "das": true,
+    "pipeline_call_args": {
+        "height": 512,
+        "width": 512,
+        "negative_prompt": null,
+        "guidance_scale":5.0,
+        "num_inference_steps": 20,
+        "num_particles": 3,
+        "ess_threshold": 0.5,
+        "tempering": true
+    },
+    "verifier_args": {
+        "name": "prompt_adaptation", 
+        "choice_of_metric": "reward",
+        "eval_target": ["clipscore", "aesthetic"],
+        "base_score_path": "baseline_output/lexica/sd14_ddim_20_42/basescore_seed42.json"
+    }
+}
