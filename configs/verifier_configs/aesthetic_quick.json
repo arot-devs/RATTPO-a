@@ -1,0 +1,7 @@
+{
+  "verifier_args": {
+    "name": "aesthetic",
+    "choice_of_metric": "reward"
+  }
+}
+

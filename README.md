@@ -71,3 +71,11 @@ Year = {2025},
 Eprint = {arXiv:2506.16853},
 }
 ```
+# Reward-Agnostic Prompt Optimization for Text-to-Image Diffusion Models
+
+New in this fork (RATTPO-a)
+- Setup guide: see SETUP.md
+- Quick smoke test: scripts/run_ollama_quick.sh
+- Conda env: environment.yml (Python 3.10, Torch 2.5.1 + CUDA 12.4)
+
+---

@@ -1,0 +1,8 @@
+{
+  "verifier_args": {
+    "name": "prompt_adaptation",
+    "choice_of_metric": "reward",
+    "eval_target": ["clipscore", "aesthetic"]
+  }
+}
+

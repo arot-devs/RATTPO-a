@@ -1,0 +1,13 @@
+{
+  "search_args": {
+    "search_method": "llm_icl",
+    "history_selection_strategy": "best",
+    "search_rounds": 1,
+    "num_samples_per_round": 1,
+    "history_num_selection": 1,
+    "template_version": "ours",
+    "llm_name": "llama3.2:1b",
+    "use_genai_api": false
+  }
+}
+

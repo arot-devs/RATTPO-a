@@ -1,0 +1,15 @@
+{
+  "pretrained_model_name_or_path": "CompVis/stable-diffusion-v1-4",
+  "torch_dtype": "fp16",
+  "batch_size_for_img_gen": 1,
+  "sampler": "dpm_solver",
+  "pipeline_call_args": {
+    "height": 256,
+    "width": 256,
+    "negative_prompt": null,
+    "guidance_scale": 5.0,
+    "num_inference_steps": 10,
+    "num_images_per_prompt": 1
+  }
+}
+

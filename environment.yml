@@ -1,0 +1,46 @@
+name: rattpo
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - ipykernel
+  - jupyterlab
+  - numpy
+  - pillow
+  - tqdm
+  - requests
+  - omegaconf
+  - matplotlib
+  - numba
+  - spacy
+  - sentencepiece
+  - protobuf
+  - typing-extensions
+  - pandas
+  - scipy
+  # PyTorch stack (GPU-enabled). If you prefer CPU-only, remove pytorch-cuda.
+  - pytorch=2.5.*
+  - torchvision=0.20.*
+  - pytorch-cuda=12.4
+  - pip:
+      - pytorch-lightning
+      - datasets
+      - fairscale
+      - ruamel.yaml
+      - accelerate
+      - google-genai
+      - outlines
+      - hpsv2
+      - word2number
+      - pydantic
+      - safetensors
+      - einops
+      - timm
+      - ollama
+      - git+https://github.com/huggingface/diffusers.git
+      - git+https://github.com/huggingface/transformers.git@006d9249ec0270ff6c4d3840979d23fe94bdc763
+      - git+https://github.com/openai/CLIP.git
