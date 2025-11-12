@@ -1,0 +1,23 @@
+[
+    {
+        "reward": 6.686255931854248,
+        "verifier_scores": {
+            "clipscore": 30.56640625,
+            "aesthetic": 6.686255931854248
+        }
+    },
+    {
+        "reward": 6.543236255645752,
+        "verifier_scores": {
+            "clipscore": 33.1298828125,
+            "aesthetic": 6.543236255645752
+        }
+    },
+    {
+        "reward": 6.862085342407227,
+        "verifier_scores": {
+            "clipscore": 29.7119140625,
+            "aesthetic": 6.862085342407227
+        }
+    }
+]
